@@ -8,6 +8,8 @@ without finishing or submitting the attempt. This is useful for long pages of qu
 (essays in particular), where students worry about losing their work before they click
 "Next page".
 
+![The Save my answers button on a quiz attempt page](screenshots/attempt-page.png)
+
 ## How it works
 
 The button uses the normal quiz navigation: it submits the attempt form and asks Moodle
@@ -35,6 +37,8 @@ Quizzes that existed before the plugin was installed do not show the button unti
 setting is turned on.
 
 The setting is kept when a quiz is backed up, restored or duplicated.
+
+![The setting in the quiz settings form](screenshots/quiz-settings.png)
 
 ## Privacy
 
