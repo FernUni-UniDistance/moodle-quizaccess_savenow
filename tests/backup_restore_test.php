@@ -37,6 +37,9 @@ require_once($CFG->dirroot . '/backup/util/includes/restore_includes.php');
 final class backup_restore_test extends \advanced_testcase {
     /**
      * The setting of each quiz is kept when the course is backed up and restored.
+     *
+     * @covers \backup_quizaccess_savenow_subplugin
+     * @covers \restore_quizaccess_savenow_subplugin
      */
     public function test_backup_restore(): void {
         global $DB, $USER;

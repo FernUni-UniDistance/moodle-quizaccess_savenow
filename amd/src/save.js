@@ -116,7 +116,7 @@ export const init = () => {
         .then(([saveNowText, savedText, shortcutText]) => {
             const button = document.createElement('button');
             button.type = 'button';
-            button.className = 'btn btn-secondary mr-2 me-2 quizaccess-savenow';
+            button.className = 'btn btn-secondary quizaccess-savenow';
             button.textContent = saveNowText;
             button.title = `${saveNowText} (${shortcutText})`;
             button.setAttribute('aria-keyshortcuts', 'Control+S Meta+S');

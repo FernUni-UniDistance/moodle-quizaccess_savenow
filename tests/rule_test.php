@@ -53,6 +53,8 @@ final class rule_test extends \advanced_testcase {
 
     /**
      * The rule only applies to quizzes where it is enabled.
+     *
+     * @covers \quizaccess_savenow
      */
     public function test_make(): void {
         $this->resetAfterTest();
@@ -72,6 +74,8 @@ final class rule_test extends \advanced_testcase {
 
     /**
      * The rule never restricts access to the quiz.
+     *
+     * @covers \quizaccess_savenow
      */
     public function test_rule_does_not_restrict_access(): void {
         $this->resetAfterTest();
@@ -91,6 +95,8 @@ final class rule_test extends \advanced_testcase {
 
     /**
      * Saving the setting adds or removes a single record.
+     *
+     * @covers \quizaccess_savenow
      */
     public function test_save_settings(): void {
         global $DB;
@@ -111,6 +117,8 @@ final class rule_test extends \advanced_testcase {
 
     /**
      * Deleting the quiz deletes the setting.
+     *
+     * @covers \quizaccess_savenow
      */
     public function test_delete_settings(): void {
         global $DB;
@@ -125,6 +133,8 @@ final class rule_test extends \advanced_testcase {
 
     /**
      * The JavaScript is loaded on the attempt page only.
+     *
+     * @covers \quizaccess_savenow
      */
     public function test_setup_attempt_page(): void {
         $this->resetAfterTest();
