@@ -18,6 +18,8 @@ clicked, the page reloads at the same place, and a message confirms that the ans
 have been saved. The attempt is neither finished nor submitted, and no data is stored
 outside of the quiz attempt.
 
+![The confirmation message shown after saving](screenshots/confirmation.png)
+
 ## Requirements
 
 - Moodle 4.5 to 5.3.
